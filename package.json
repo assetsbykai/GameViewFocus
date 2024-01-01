@@ -1,0 +1,10 @@
+{
+  "name": "com.assetsbykai.gameviewfocus",
+  "version": "1.0.0",
+  "displayName": "Game View Focus",
+  "description": "Save yourself a click and automatically focus the Game View when entering Play Mode",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/assetsbykai/GameViewFocus",
+  "changelogUrl": "https://github.com/assetsbykai/GameViewFocus/releases",
+  "licensesUrl": "https://github.com/assetsbykai/GameViewFocus/blob/main/LICENSE"
+}
