@@ -9,13 +9,6 @@ namespace GameViewFocus
     [InitializeOnLoad]
     public static class GameViewFocus
     {
-        #region StaticStrings
-
-        internal static string Version => "1.0.0";
-        internal static string CommitDate => "January 1, 2024";
-
-        #endregion
-
         #region Properties
 
         internal static bool IsEnabled {
