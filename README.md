@@ -1,12 +1,13 @@
 <p align="center">
-<img style="align:center;" src="https://github.com/assetsbykai/GameViewFocus/blob/main/.github/icon.png" alt="Game View Focus" width="100" />
+<img style="align:center;" src="https://media.githubusercontent.com/media/assetsbykai/GameViewFocus/main/.github/icon.png" alt="Game View Focus" width="100" />
 </p>
 
 <h1 align="center">Game View Focus</h1>
 <h3 align="center">Save yourself a click and automatically focus the Game View when entering Play Mode</h3>
 <p align="center">
-<img style="align:center;" src="https://img.shields.io/badge/unity-2021.3+-blue.svg" alt="Unity 2021.3+" />
-<img style="align:center;" src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License: MIT" />
+<a href="https://unity3d.com/get-unity/download"><img style="align:center;" src="https://img.shields.io/badge/unity-2021.3+-blue.svg" alt="Unity 2021.3+" /></a>
+<a href="https://openupm.com/packages/com.assetsbykai.gameviewfocus/"><img style="align:center;" src="https://img.shields.io/npm/v/com.assetsbykai.gameviewfocus?label=openupm&amp;registry_uri=https://package.openupm.com" alt="Game View Focus on OpenUPM" /></a>
+<a href="https://github.com/assetsbykai/GameViewFocus/blob/main/LICENSE"><img style="align:center;" src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License: MIT" /></a>
 </p>
 
 ## About
@@ -21,8 +22,12 @@ In Unity versions 2021 and later, the behavior of how the Game View focuses when
 
 ## Installation
 
-1. Download the latest [GameViewFocus.unitypackage](https://github.com/assetsbykai/GameViewFocus/releases) from GitHub.
-2. Import the package into your project (in Unity, go to *Assets* → *Import Package* → *Custom Package...*).
+There are two ways of installing Game View Focus:
+
+1. This package is available on [OpenUPM](https://openupm.com/), the Open Source Unity Package Registry. You can install it via [openupm-cli](https://github.com/openupm/openupm-cli#openupm-cli) with `openupm add com.assetsbykai.gameviewfocus`
+
+2. Download the latest [GameViewFocus.unitypackage](https://github.com/assetsbykai/GameViewFocus/releases) from GitHub and import it manually into your project (in Unity, go to *Assets* → *Import Package* → *Custom Package...*).
+
 
 ## Usage
 
