@@ -1,5 +1,3 @@
-using GameViewFocus.Editor;
-
 namespace GameViewFocus.Demo
 {
     using UnityEditor;
@@ -33,7 +31,14 @@ namespace GameViewFocus.Demo
                 EditorGUILayout.PropertyField(_isCursorVisible);
                 EditorGUI.EndDisabledGroup();
 
-                EditorUtils.LabelBox("Note: A locked cursor is always invisible, regardless of the value of Cursor.visible.");
+                var helpBoxStyle = GUI.skin.GetStyle("HelpBox");
+                helpBoxStyle.richText = true;
+
+                EditorGUILayout.BeginHorizontal();
+                GUILayout.Space(EditorGUIUtility.labelWidth + 2);
+                EditorGUILayout.SelectableLabel("Note: A locked cursor is always invisible, regardless of the value of Cursor.visible.", helpBoxStyle, GUILayout.Height(EditorGUIUtility.singleLineHeight));
+                EditorGUILayout.EndHorizontal();
+
                 EditorGUILayout.Separator();
             }
             else

@@ -9,21 +9,6 @@ namespace GameViewFocus.Editor
     /// </summary>
     internal static class EditorUtils
     {
-        #region GUI
-
-        internal static void LabelBox(string text, bool fullWidth = false)
-        {
-            var helpBoxStyle = GUI.skin.GetStyle("HelpBox");
-            helpBoxStyle.richText = true;
-
-            EditorGUILayout.BeginHorizontal();
-            if (!fullWidth) GUILayout.Space(EditorGUIUtility.labelWidth + 2);
-            EditorGUILayout.SelectableLabel(text, helpBoxStyle, GUILayout.Height(EditorGUIUtility.singleLineHeight));
-            EditorGUILayout.EndHorizontal();
-        }
-
-        #endregion
-
         #region MenuItems
 
         internal static void OpenGitHub()
